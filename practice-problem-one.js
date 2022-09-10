@@ -1,0 +1,13 @@
+var totalMoney = 1000;
+var orangePrice = 100;
+var applePrice = 100;
+var orangeQuantity = 5;
+var appleQuantity = 2;
+var totalOrangePrice = orangePrice * orangeQuantity;
+// console.log(totalOrangePrice);
+var totalApplePrice = applePrice * appleQuantity;
+// console.log(totalApplePrice);
+var totalPrice = totalOrangePrice + totalApplePrice;
+// console.log(totalPrice);
+var backMoney = totalMoney - totalPrice;
+console.log(backMoney);
