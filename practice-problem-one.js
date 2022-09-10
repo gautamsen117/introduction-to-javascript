@@ -1,13 +1,11 @@
+// harry moms gave money
 var totalMoney = 1000;
-var orangePrice = 100;
-var applePrice = 100;
-var orangeQuantity = 5;
-var appleQuantity = 2;
-var totalOrangePrice = orangePrice * orangeQuantity;
-// console.log(totalOrangePrice);
-var totalApplePrice = applePrice * appleQuantity;
-// console.log(totalApplePrice);
-var totalPrice = totalOrangePrice + totalApplePrice;
-// console.log(totalPrice);
-var backMoney = totalMoney - totalPrice;
-console.log(backMoney);
+console.log(totalMoney);
+var orangePrice = 300;
+var applePrice = 400;
+// 1kg apple & 1kg orange totalprice
+var totalPrice = orangePrice + applePrice;
+console.log(totalPrice);
+// shopkeeper return total money
+var returnMoney = totalMoney - totalPrice;
+console.log(returnMoney);
