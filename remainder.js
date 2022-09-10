@@ -5,5 +5,3 @@ console.log(remainder);
 
 // / vagfol
 // % bagses
-
-console.log(17%5);
